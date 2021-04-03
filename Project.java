@@ -1,4 +1,4 @@
-public class Project // class declaration 
+public class Project
 {
 	// attributes
 	int project_number;
@@ -20,31 +20,37 @@ public class Project // class declaration
 		this.customer = customer;
 		this.deadline = deadline;
 		}
+	
 	//public method that will return the argument customer in a string form
 	public String getCustomer()
 	{
 		return customer;
 		}
+	
 	//public method that will return the argument ERF number in a string form
 	public String getERFNumber()
 	{
 		return ERF_number;
 		}
+	
 	//public method that will return the argument project type in a string form
 	public String getProjectType()
 	{
 		return project_type;
 		}
+	
 	//public method that will return the argument project name in a string form
 	public String getProjectName()
 	{      
 		return project_name;
 		}
+	
 	//public method that will return the argument deadline in a string form
 	public String getDeadline()
 	{
 		return deadline;
 		}
+	
 	// public method toString that will return all the arguments in other methods
 	public String toString()
 	{
