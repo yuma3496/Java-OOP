@@ -1,8 +1,9 @@
-import java.util.Scanner;// Importing the class Scanner from the java.util package
-import java.text.ParseException; // Importing the class ParseExceprion from the java.util package
-import java.text.SimpleDateFormat; // Importing the class SimpleDateFormat from the java.util package
-import java.util.Date; //// Importing the class Date from the java.util package
-public class ProjectOverview // class declaration
+import java.util.Scanner;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class ProjectOverview
 {
    public static void main(String [] args) throws ParseException
    {
@@ -112,6 +113,7 @@ public class ProjectOverview // class declaration
        System.out.println(projObj);
        if (first_date.after(second_date))
        {
+          
 System.out.println("Project is overdue");
 }
        // create lines between project and invoice details
@@ -147,7 +149,5 @@ System.out.println("Project is overdue");
        System.out.println("INVOICE ");
        Invoice objInv = new Invoice(invoice_customer, invoice_telephone_numbers, total_fee, total_paid, balance);
        System.out.println(objInv);
-          
-      
    }
 }
